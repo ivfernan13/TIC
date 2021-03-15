@@ -1,0 +1,55 @@
+{
+  "title": "Formas geométricas",
+  "author": "Iván Fernández Ramos (Creador)",
+  "school": "Universidad Rey Juan Carlos",
+  "date": "15/03/21",
+  "langCodes": [
+    "es"
+  ],
+  "languages": {
+    "es": "español"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "areas": {
+    "es": "Matemáticas, Geometría"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "levels": {
+    "es": "Infantil (3-6)"
+  },
+  "description": {},
+  "license": {
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA<\/a>"
+  },
+  "meta_langs": [
+    "es"
+  ],
+  "cover": "9c46A5zzi.png",
+  "mainFile": "formas_geometricas.jclic",
+  "thumbnail": "project-thumb.jpg",
+  "activities": 1,
+  "mediaFiles": 11,
+  "totalSize": 99699,
+  "files": [
+    "500px-maki-triangle-11.svg.png",
+    "9c46a5zzi.png",
+    "circle.png",
+    "favicon.ico",
+    "formas_geometricas.jclic",
+    "formas_geometricas.jclic.js",
+    "icon-192.png",
+    "icon-72.png",
+    "icons-1293736_640-resized.jpg",
+    "imsmanifest.xml",
+    "index.html",
+    "project-thumb.jpg",
+    "project.json",
+    "rectangle-34969_1280-resized.jpg",
+    "rhomb.png",
+    "square.png"
+  ]
+}

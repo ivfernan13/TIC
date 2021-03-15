@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="formas_geometricas" version="0.1.3">
+ <settings>
+  <title>Formas geométricas</title>
+  <revision description="created" date="3/15/21" />
+  <author name="Iván Fernández Ramos" rol="Creador" />
+  <organization name="Universidad Rey Juan Carlos" />
+  <language>es</language>
+  <descriptors area="Geometría" area-codes="mat" level-codes="INF">Formas geométricas</descriptors>
+  <cover file="9c46A5zzi.png" />
+  <meta_langs>es</meta_langs>
+  <descriptions>
+   <description language="es" />
+  </descriptions>
+  <license type="by-nc-sa" url="https://creativecommons.org/licenses/by-nc-sa/4.0" />
+ </settings>
+ <sequence>
+  <item id="start" name="Identifica las formas" />
+ </sequence>
+ <activities>
+  <activity class="@associations.SimpleAssociation" name="Identifica las formas" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>¡Vamos a adivinar las formas!</p>
+    </cell>
+    <cell type="final">
+     <style />
+     <p>¡Lo has logrado!</p>
+    </cell>
+    <cell type="finalError">
+     <style />
+     <p>Upss... esa no es</p>
+    </cell>
+   </messages>
+   <settings margin="12" report="true" reportActions="false">
+    <container bgColor="0xCC33FF">
+     <image name="9c46A5zzi.png" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xCC33FF" border="true" />
+   </settings>
+   <cells rows="2" cols="3" cellWidth="50.0" cellHeight="30.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="2" />
+    <cell>
+     <p>Círculo</p>
+    </cell>
+    <cell>
+     <p>Triángulo</p>
+    </cell>
+    <cell>
+     <p>Rombo</p>
+    </cell>
+    <cell>
+     <p>Cuadrado</p>
+    </cell>
+    <cell>
+     <p>Rectángulo</p>
+    </cell>
+    <cell>
+     <p>Estrella</p>
+    </cell>
+   </cells>
+   <cells rows="2" cols="3" cellWidth="50.0" cellHeight="30.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="2" />
+    <cell image="circle.png" />
+    <cell image="500px-Maki-triangle-11.svg.png" />
+    <cell border="true" image="Rhomb.png" />
+    <cell txtAlign="left,top" image="square.png" />
+    <cell image="rectangle-34969_1280-resized.jpg" />
+    <cell image="icons-1293736_640-resized.jpg" />
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="BUA" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="icons-1293736_640-resized.jpg" file="icons-1293736_640-resized.jpg" />
+  <media name="rectangle-34969_1280-resized.jpg" file="rectangle-34969_1280-resized.jpg" />
+  <media name="500px-Maki-triangle-11.svg.png" file="500px-maki-triangle-11.svg.png" />
+  <media name="9c46A5zzi.png" file="9c46a5zzi.png" />
+  <media name="circle.png" file="circle.png" />
+  <media name="Rhomb.png" file="rhomb.png" />
+  <media name="square.png" file="square.png" />
+ </mediaBag>
+</JClicProject>
+
